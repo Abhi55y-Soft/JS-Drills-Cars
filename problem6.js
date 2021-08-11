@@ -1,5 +1,8 @@
 function problem6 (inventory) {  //return the list of cars of BMW and Audi from inventory
     let list = []
+    if (inventory.length==0){
+        return list
+    }
     for (let i =0; i<inventory.length; i++){
         let obj = inventory[i]
         if (obj['car_make'] == 'BMW' || obj['car_make'] == 'Audi'){

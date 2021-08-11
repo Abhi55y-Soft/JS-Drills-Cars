@@ -17,12 +17,12 @@ function Sort(list) {   //this is a bubble sort method
 function problem3 (inventory) {  //return the list of car model from inventory
     let list = []
     if (inventory.length==0){
-      return list
+      return list;
     }
     for (let i =0; i<inventory.length; i++){
-        let obj = inventory[i]
-        list.push(obj['car_model'])
+        let obj = inventory[i];
+        list.push(obj['car_model']);
     }
-    return Sort(list) //sorting the list
+    return Sort(list); //sorting the list
 }
 module.exports.problem3 = problem3;

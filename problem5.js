@@ -1,14 +1,14 @@
 function problem5 (inventory) {  //return the list of car older than 2000 from inventory
-    let list = []
+    let list = [];
     if (inventory.length==0){
-        return list
+        return list;
     }
     for (let i =0; i<inventory.length; i++){
-        let obj = inventory[i]
+        let obj = inventory[i];
         if (obj['car_year']<2000){
-            list.push(obj)
+            list.push(obj);
         } 
     }
-    return list
+    return list;
 }
 module.exports.problem5 = problem5;

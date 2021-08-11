@@ -1,5 +1,5 @@
 const inventory = require('../inventory');
 const problem4 = require('../problem4');
 
-const result = problem4.problem4(inventory)
-console.log(result)
+const result = problem4.problem4(inventory);
+console.log(result);

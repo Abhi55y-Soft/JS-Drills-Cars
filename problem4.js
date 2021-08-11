@@ -1,12 +1,12 @@
 function problem4 (inventory) {  //return the list of car years from inventory
-    let list = []
+    let list = [];
     if (inventory.length==0){
-        return list
+        return list;
     }
     for (let i =0; i<inventory.length; i++){
-        let obj = inventory[i]
-        list.push(obj['car_year'])
+        let obj = inventory[i];
+        list.push(obj['car_year']);
     }
-    return list
+    return list;
 }
 module.exports.problem4 = problem4;
